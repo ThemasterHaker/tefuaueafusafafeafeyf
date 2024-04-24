@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Byte Chat</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Dashboard</h1>
+        <div class="actions">
+            <h2>Create or Join a Chatroom</h2>
+            <form id="chatroomForm">
+                <div class="form-group">
+                    <label for="chatroomCode">Enter Chatroom Code:</label>
+                    <input type="text" id="chatroomCode" name="chatroomCode" placeholder="Enter code">
+                </div>
+                <button type="submit">Join Chatroom</button>
+            </form>
+            <h2>Search for Chatrooms</h2>
+            <form id="searchForm">
+                <div class="form-group">
+                    <label for="searchQuery">Search:</label>
+                    <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter keywords">
+                </div>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <p>Dashboard content goes here...</p>
+        <p><a href="logout.html">Logout</a></p>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
